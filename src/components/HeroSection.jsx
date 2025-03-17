@@ -10,7 +10,7 @@ const HeroSection = ({ nameItems, imgUrl }) => {
         <img
           src={imgUrl}
           alt={nameItems}
-          className="w-full h-auto object-contain"
+          className="w-full h-auto object-contain" 
         />
       </div>
     </div>
