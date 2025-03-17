@@ -4,8 +4,8 @@ const PricingSection = ({ originalPrice, discountedPrice }) => {
   const hasDiscount = discountedPrice < originalPrice;
 
   return (
-    <div className=" p-4 bg-white shadow-lg rounded-lg max-w-xs flex justify-between">
-      <div className="text-gray-700">
+    <div className="p-4 bg-white shadow-lg rounded-lg max-w-xs flex justify-between">
+      <div className="text-gray-700 mr-4">
         <span className="block text-sm font-semibold">ЗВИЧАЙНА ЦІНА:</span>
         <span className={`block text-xl font-bold ${hasDiscount ? 'line-through text-gray-400' : 'text-black'}`}>
           {originalPrice} ГРН
